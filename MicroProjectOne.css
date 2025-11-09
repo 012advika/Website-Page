@@ -1,0 +1,119 @@
+
+body{
+
+    padding: 0;
+    margin: 0;
+}
+.header{
+
+    padding: 50px;
+    display: flex;
+    background-color: #FFCD9E;
+    height: 60vh;
+    width: auto;
+}
+
+.leftPart{
+
+    width: 60vw;
+
+}
+
+.rightPart{
+
+    background-color: #FFCD9E;
+   
+    
+   
+}
+
+.title{
+
+    font-size: 30px;
+    font-weight: 900;
+    font-style: inherit;
+}
+
+.subComment{
+
+    font-weight: 600;
+}
+
+.imgDesign{
+
+    height: 420px;
+    width: auto;
+}
+
+.footer{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    height: 25vh;
+    width: auto;
+    background-color: #282828;
+    color: white;
+}
+
+.buttonStyle{
+
+    display: flex;
+    
+}
+
+.emailStyle input{
+
+    border: #282828 solid;
+    padding: 12px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    border-radius: 8px;
+    margin-right: 20px;
+    color: #888888;
+    
+}
+
+.submitBtn input{
+
+    margin-left: 20px;
+    border: #282828 solid;
+    padding: 12px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    border-radius: 8px;
+    background-color: #282828;
+    color: white;
+}
+
+.leftFooter li{
+
+   list-style:none;
+    margin-bottom: 10px;
+
+
+}
+
+.rightFooter li{
+
+    list-style: none;
+     margin-bottom: 10px;
+}
+
+.leftFooter li:last-child{
+
+    margin-bottom: 0;
+}
+
+.rightFooter li :last-child
+{
+    margin-bottom: 0;
+}
+
+.rightFooter li:nth-last-child(2)
+{
+    margin-bottom: 28px;
+}
+
